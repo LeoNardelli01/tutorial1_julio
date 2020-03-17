@@ -1,0 +1,24 @@
+/* ESCRITORIO */
+@media (min-width: 1200px) {
+  body {color: red;}
+}
+
+/* ESCRITORIO PEQUEÑO O TABLET*/
+@media (min-width: 768px) and (max-width:979px){
+  body {color: green;}
+}
+
+/* TABLET P SMARTPHONE */
+@media (max-width: 767px) {
+  body {color: blue;}
+}
+
+/* SMARTPHONE */
+@media (max-width: 480px) {
+  body {color: yellow;}
+}
+
+.text-big{
+  font-size: 300px;
+  line-height: 320px;
+}
